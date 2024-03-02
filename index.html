@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Best Five</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Manrope:wght@500;600;800&display=swap"
+                rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+                tailwind.config = {
+                        theme: {
+                                extend: {
+                                        colors: {
+                                                clifford: '#da373d',
+                                                fontcolor: '#FF5E19',
+                                                btncolor: '#015196',
+                                        }
+                                }
+                        }
+                }
+        </script>
+
+</head>
+
+<body>
+        <header>
+                <section class="container mx-auto mb-40 mt-0">
+                        <div class="min-h-screen bg-[url(imgs/banner.png)] bg-no-repeat bg-center "></div>
+                        <h1 class="text-6xl -mt-96 text-center  panda text-fontcolor font-bold">Select Your Best Five
+                        </h1>
+                        <img class="mx-auto" src="imgs/Line Marker.png" alt="">
+                        <p class=" text-white text-center  w-6/12 mx-auto my-5 mb-10">Amet minim
+                                mollit non deserunt ullamco est sit aliqua dolor do ametsint. Velit officia consequat
+                                duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+                </section>
+        </header>
+        <br>
+        <main>
+
+                <section class="container mx-auto mt-16">
+                        <div class="grid grid-cols-4 gap-8 w-10/12 mx-auto my-10">
+                                <div class="card  bg-base-100 shadow-xl">
+                                        <figure><img src="imgs/Rectangle 144.png" alt="Shoes" /></figure>
+                                        <div class="card-body">
+                                                <h2 id="leo-name" class="text-center text-xl font-semibold">Lionel Messi
+                                                </h2>
+                                                <div class="flex mx-auto">
+                                                        <p class="me-3">36 Goals </p>
+                                                        <li>120 Asist</li>
+                                                </div>
+                                                <div class="card-actions justify-center">
+                                                        <button id="leo-select"
+                                                                class="btn bg-btncolor w-full text-xl font-semibold hover:bg-slate-50 text-slate-300 ">Select</button>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="card  bg-base-100 shadow-xl">
+                                        <figure><img src="imgs/Rectangle 144 (1).png" alt="Shoes" /></figure>
+                                        <div class="card-body">
+                                                <h2 id="neimar-name" class="text-center text-xl font-semibold">Neimer Jr
+                                                </h2>
+                                                <div class="flex mx-auto">
+                                                        <p class="me-3">36 Goals </p>
+                                                        <li>120 Asist</li>
+                                                </div>
+                                                <div class="card-actions justify-center">
+                                                        <button id="neimar-select"
+                                                                class="btn bg-btncolor w-full text-xl font-semibold hover:bg-slate-50 text-slate-300 ">Select</button>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="card  bg-base-100 shadow-xl">
+                                        <figure><img src="imgs/Rectangle 144 (2).png" alt="Shoes" /></figure>
+                                        <div class="card-body">
+                                                <h2 id="mbappe-name" class="text-center text-xl font-semibold">Kylian
+                                                        Mbappé </h2>
+                                                <div class="flex mx-auto">
+                                                        <p class="me-3">36 Goals </p>
+                                                        <li>120 Asist</li>
+                                                </div>
+                                                <div class="card-actions justify-center">
+                                                        <button id="mbappe-select"
+                                                                class="btn bg-btncolor w-full text-xl font-semibold hover:bg-slate-50 text-slate-300 ">Select</button>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="card  bg-black text-white shadow-xl">
+
+                                        <div class="card-body">
+                                                <h2 class="text-center text-2xl font-semibold">Selected - V</h2>
+                                                <img class="h-[12px] w-[144px] mx-auto" src="imgs/Ureg-Ureg Marker.png"
+                                                        alt="">
+                                                <div>
+                                                        <h1 id="first-leo"></h1>
+                                                        <h1 id="2nd-neimar"></h1>
+                                                        <h1 id="3rd-mbappe"></h1>
+                                                        <h1 id="4th-vitor"></h1>
+                                                        <h1 id="5th-ramos"></h1>
+                                                        <h1 id="last-Renato"></h1>
+                                                </div>
+
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="grid grid-cols-4 gap-8 w-10/12 mx-auto my-10">
+                                <div class="card  bg-base-100 shadow-xl">
+                                        <figure><img src="imgs/Rectangle 144 (3).png" alt="Shoes" /></figure>
+                                        <div class="card-body">
+                                                <h2 id="vitor-name" class="text-center text-xl font-semibold">Vítor
+                                                        Machado</h2>
+                                                <div class="flex mx-auto">
+                                                        <p class="me-3">36 Goals </p>
+                                                        <li>120 Asist</li>
+                                                </div>
+                                                <div class="card-actions justify-center">
+                                                        <button id="vitor-select"
+                                                                class="btn bg-btncolor w-full text-xl font-semibold hover:bg-slate-50 text-slate-300 ">Select</button>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="card  bg-base-100 shadow-xl">
+                                        <figure><img src="imgs/Rectangle 144 (4).png" alt="Shoes" /></figure>
+                                        <div class="card-body">
+                                                <h2 id="ramos-name" class="text-center text-xl font-semibold">Sergio
+                                                        Ramos</h2>
+                                                <div class="flex mx-auto">
+                                                        <p class="me-3">36 Goals </p>
+                                                        <li>120 Asist</li>
+                                                </div>
+                                                <div class="card-actions justify-center">
+                                                        <button id="ramos-select"
+                                                                class="btn bg-btncolor w-full text-xl font-semibold hover:bg-slate-50 text-slate-300 ">Select</button>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="card  bg-base-100 shadow-xl">
+                                        <figure><img src="imgs/Rectangle 144 (5).png" alt="Shoes" /></figure>
+                                        <div class="card-body">
+                                                <h2 id="Renato-name" class="text-center text-xl font-semibold">Renato
+                                                        Sanches</h2>
+                                                <div class="flex mx-auto">
+                                                        <p class="me-3">36 Goals </p>
+                                                        <li>120 Asist</li>
+                                                </div>
+                                                <div class="card-actions justify-center">
+                                                        <button id="Renato-select"
+                                                                class="btn bg-btncolor w-full text-xl font-semibold hover:bg-slate-50 text-slate-300 ">Select</button>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="card  bg-black  shadow-xl">
+
+                                        <div class="p-5">
+                                                <h2 class="text-center text-2xl font-semibold text-white">Budget</h2>
+                                                <img class="h-[12px] w-[144px] mx-auto" src="imgs/Ureg-Ureg Marker.png"
+                                                        alt="">
+                                                <div class="flex">
+                                                        <p class=" my-5 inline-block text-white">Per Player:</p>
+                                                        <input id="player-cost" class="h-5 w-36 mt-6 ms-2" type="text">
+                                                </div>
+                                                <div class="card-actions justify-center">
+                                                        <button id="calculate" class="btn bg-btncolor w-full  font-semibold hover:bg-slate-50 text-slate-300 ">Calculate</button>
+                                                </div>
+                                                <div class="flex">
+                                                        <p  class=" my-5 inline-block text-white">Player Expense : $<span id="player-expense">00</span> </p>
+
+                                                </div>
+                                                <div class="flex">
+                                                        <p class=" my-5 inline-block text-white">Coach:</p>
+                                                        <input id="coach-fee" class="h-5 w-44 mt-6 ms-2 " type="text">
+                                                </div>
+                                                <div class="flex">
+                                                        <p class=" my-5 inline-block text-white">Manager:</p>
+                                                        <input id="manager-fee" class="h-5 w-44 mt-6 ms-2" type="text">
+                                                </div>
+                                                <div class="card-actions justify-center">
+                                                        <button id="calculate-total" class="btn bg-btncolor w-full  font-semibold hover:bg-slate-50 text-slate-300 ">Calculate
+                                                                total</button>
+                                                </div>
+                                                <p class=" my-5 text-xl font-semibold text-white text-center">Total: $<span id="total-calculation">00</span> </p>
+
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="grid grid-cols-4 gap-8 w-10/12 mx-auto my-10">
+                                <div class="card  bg-base-100 shadow-xl">
+                                        <figure><img src="imgs/Rectangle 144 (6).png" alt="Shoes" /></figure>
+                                        <div class="card-body">
+                                                <h2 class="text-center text-xl font-semibold">Lionel Messi</h2>
+                                                <div class="flex mx-auto">
+                                                        <p class="me-3">36 Goals </p>
+                                                        <li>120 Asist</li>
+                                                </div>
+                                                <div class="card-actions justify-center">
+                                                        <button
+                                                                class="btn bg-btncolor w-full text-xl font-semibold hover:bg-slate-50 text-slate-300 ">Select</button>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="card  bg-base-100 shadow-xl">
+                                        <figure><img src="imgs/Rectangle 144 (7).png" alt="Shoes" /></figure>
+                                        <div class="card-body">
+                                                <h2 class="text-center text-xl font-semibold">Neymar Jr</h2>
+                                                <div class="flex mx-auto">
+                                                        <p class="me-3">36 Goals </p>
+                                                        <li>120 Asist</li>
+                                                </div>
+                                                <div class="card-actions justify-center">
+                                                        <button
+                                                                class="btn bg-btncolor w-full text-xl font-semibold hover:bg-slate-50 text-slate-300 ">Select</button>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <div class="card  bg-base-100 shadow-xl">
+                                        <figure><img src="imgs/Rectangle 144 (7).png" alt="Shoes" /></figure>
+                                        <div class="card-body">
+                                                <h2 class="text-center text-xl font-semibold">Kylian Mbappé</h2>
+                                                <div class="flex mx-auto">
+                                                        <p class="me-3">36 Goals </p>
+                                                        <li>120 Asist</li>
+                                                </div>
+                                                <div class="card-actions justify-center">
+                                                        <button
+                                                                class="btn bg-btncolor w-full text-xl font-semibold hover:bg-slate-50 text-slate-300 ">Select</button>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="grid grid-cols-4 gap-8 w-10/12 mx-auto my-10">
+                                <div class="card  bg-base-100 shadow-xl">
+                                        <figure><img src="imgs/Rectangle 144 (8).png" alt="Shoes" /></figure>
+                                        <div class="card-body">
+                                                <h2 class="text-center text-xl font-semibold">Vítor Machado</h2>
+                                                <div class="flex mx-auto">
+                                                        <p class="me-3">36 Goals </p>
+                                                        <li>120 Asist</li>
+                                                </div>
+                                                <div class="card-actions justify-center">
+                                                        <button
+                                                                class="btn bg-btncolor w-full text-xl font-semibold hover:bg-slate-50 text-slate-300 ">Select</button>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="card  bg-base-100 shadow-xl">
+                                        <figure><img src="imgs/Rectangle 144 (5).png" alt="Shoes" /></figure>
+                                        <div class="card-body">
+                                                <h2 class="text-center text-xl font-semibold">Sergio Ramos</h2>
+                                                <div class="flex mx-auto">
+                                                        <p class="me-3">36 Goals </p>
+                                                        <li>120 Asist</li>
+                                                </div>
+                                                <div class="card-actions justify-center">
+                                                        <button
+                                                                class="btn bg-btncolor w-full text-xl font-semibold hover:bg-slate-50 text-slate-300 ">Select</button>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <div class="card  bg-base-100 shadow-xl">
+                                        <figure><img src="imgs/Rectangle 144 (4).png" alt="Shoes" /></figure>
+                                        <div class="card-body">
+                                                <h2 class="text-center text-xl font-semibold">Renato Sanches</h2>
+                                                <div class="flex mx-auto">
+                                                        <p class="me-3">36 Goals </p>
+                                                        <li>120 Asist</li>
+                                                </div>
+                                                <div class="card-actions justify-center">
+                                                        <button
+                                                                class="btn bg-btncolor w-full text-xl font-semibold hover:bg-slate-50 text-slate-300 ">Select</button>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+        </main>
+        <script src="cost.js"></script>
+        <script src="index.js"></script>
+</body>
+
+</html>
